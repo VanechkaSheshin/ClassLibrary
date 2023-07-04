@@ -15,6 +15,7 @@ namespace ClassLibrary
 			Address = address;
 		}
 
+		// Этот метод выводит информацию о гараже и машинах внутри него
 		public void ShowAll()
 		{
 			Console.Write("Гараж:\n" +
